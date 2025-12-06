@@ -1,0 +1,23 @@
+paste("11 is ", class(11)) 
+# numeric datatype (default for whole numbers)
+
+paste("1.2332 is ", class(1.2332)) 
+# numeric datatype allows decimal values
+
+paste("72L is ", class(72L)) 
+# L indicates it is an integer value
+
+# paste("1.2332L is ", class(1.2332L)) 
+# invalid number (integer cannot have decimal), so this gives an error
+
+paste("22L is ", class(22L)) 
+# another integer value
+
+paste("2-5i is ", class(2-5i)) 
+# complex datatype (has imaginary part)
+
+paste("True is ", class(TRUE)) 
+# TRUE should be in uppercase, it is a logical value
+
+paste("& is ", class("&")) 
+# &, $, | etc., inside quotes are treated as character values
